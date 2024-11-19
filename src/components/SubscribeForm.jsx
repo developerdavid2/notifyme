@@ -2,7 +2,7 @@ import React from "react";
 
 const SubscribeForm = () => {
   return (
-    <div className="text-center max-w-4xl pb-8 max-sm:w-full md:w-[80%]">
+    <div className="text-center max-w-4xl pb-8 max-sm:w-full md:w-[80%] mx-auto">
       {" "}
       {/* Adjusted max-width */}
       <form>

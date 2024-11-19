@@ -13,7 +13,7 @@ const Waitlist = () => {
           <div className="flex flex-col items-center relative z-2 md:max-w-full text-center justify-center">
             <div className="blur-[12rem] h-28 w-28 bg-indigo-600 absolute top-4 left-1/3" />
             <div className="blur-[8rem] h-28 w-28 bg-orange-500/40 absolute top-4 left-1/3" />
-            <div className=" h-12 w-12 bg-gradient-to-bl from-color-3 to-amber-800/50  absolute top-[12%] right-[15%] sm:top-[13%] smright-[20%] rounded-full -z-1" />
+            <div className=" h-12 w-12 bg-gradient-to-bl from-color-3 to-amber-800/50  absolute top-[12%] right-[15%] sm:top-[13%] md:right-[20%] rounded-full -z-1" />
             <div data-aos="fade-up" data-aos-duration="800">
               <h1 className="mb-6 md:h1 h4 text-n-1 max-lg:mb-7 max-md:mb-4 md:leading-7">
                 Get early
