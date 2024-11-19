@@ -69,7 +69,7 @@ export default function Tabs({ tabs }) {
                   <article className="w-full items-stretch rounded-2xl focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 min-[480px]:flex transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-8 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-12">
                     <figure className="p-2 w-full mask-linear   shadow-xl">
                       <img
-                        className="w-full max-h-[75vh] h-auto rounded-lg object-contain"
+                        className="w-full max-h-[75vh] h-auto rounded-lg object-contain max-sm:px-8"
                         width={100}
                         height={400}
                         src={tab.image}

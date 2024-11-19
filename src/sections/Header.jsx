@@ -26,11 +26,11 @@ const Header = () => {
   return (
     <header
       className={clsx(
-        "fixed top-0 left-0 right-0 z-50 px-6 py-4 duration-150 ",
+        "fixed top-0 left-0 right-0 z-50 px-6 py-4",
         scrolledFromTop &&
           !openNav &&
-          "py-1 mx-auto md:mt-3 shadow-lg border-none md:rounded-2xl bg-n-7/30 md:w-[85%] transition-colors duration-150 backdrop-blur-md -z-1",
-        openNav && "min-h-screen mx-0 mt-0 bg-n-8 rounded-none duration-100",
+          "py-1 mx-auto md:mt-3 shadow-lg border-none md:rounded-2xl bg-n-7/30 md:w-[85%] backdrop-blur-md -z-1 transition-all duration-150",
+        openNav && "min-h-screen mx-0 mt-0 bg-n-8 rounded-none",
         scrolledFromTop && openNav && "bg-n-8 md:w-full md:mt-0 md:rounded-none"
       )}>
       <div className="w-full container flex items-center justify-between text-blue-gray-900 font-poppins max-md:px-0">
@@ -46,7 +46,7 @@ const Header = () => {
             src="/assets/notifyME-logo.png"
             alt="logo"
             className={clsx(
-              "lg:w-[10rem] md:w-[8rem] w-[6rem] h-auto transform origin-left transition duration-200",
+              "lg:w-[10rem] md:w-[8rem] w-[6rem] h-auto transform origin-left",
               openNav && "w-[6rem]"
             )}
           />
@@ -76,7 +76,6 @@ const Header = () => {
           </IconButton>
         </div>
       </div>
-
       {/* Mobile Nav List */}
       <Collapse
         open={openNav}
@@ -87,7 +86,7 @@ const Header = () => {
             <img
               src="/assets/logo.png"
               alt="logo"
-              className="opacity-[0.02] w-[60rem] h-auto transform -translate-y-5 -translate-x-20 transition-all duration-300 grayscale"
+              className="opacity-[0.02] w-[60rem] h-auto -translate-y-5 -translate-x-20 grayscale"
             />
           </div>
 
@@ -97,7 +96,7 @@ const Header = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex -mt-8 flex-col pb-20 z-10 gap-3">
+          <div className="flex -mt-12 flex-col pb-20 z-10 gap-3">
             <Button
               className="rounded-2xl font-poppins bg-white/30 backdrop-blur-[5rem] border border-white/25 text-n-1 hover:bg-white/40 uppercase flex-grow"
               onClick={closeNav}>

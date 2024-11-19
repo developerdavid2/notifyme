@@ -6,13 +6,13 @@ const LogoCarousel = () => {
   return (
     <Slider
       width="250px"
-      duration={20}
+      duration={40}
       pauseOnHover={true}
       blurBorders={false}
       blurBorderColor={"#fff"}>
       {logoSlides.map((logo, index) => (
         <Slider.Slide key={index}>
-          <img src={logo.src} alt={logo.alt} className="w-20 md:w-36" />
+          <img src={logo.src} alt={logo.alt} className="w-36" />
         </Slider.Slide>
       ))}
     </Slider>

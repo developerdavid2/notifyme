@@ -3,11 +3,11 @@ import { lazy } from "react";
 import App from "../App.jsx";
 
 import ScrollToTop from "../providers/ScrollToTop.jsx";
+import Waitlist from "../pages/Waitlist.jsx";
+import TermsOfService from "../pages/TermsOfService.jsx";
+import Privacy from "../pages/Privacy.jsx";
 
 const HomePage = lazy(() => import("../pages/HomePage.jsx"));
-const Waitlist = lazy(() => import("../pages/Waitlist.jsx"));
-const TermsOfService = lazy(() => import("../pages/TermsOfService.jsx"));
-const Privacy = lazy(() => import("../pages/Privacy.jsx"));
 
 const router = createBrowserRouter([
   {

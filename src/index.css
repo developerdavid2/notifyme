@@ -297,6 +297,22 @@
   /* END of FAQ */
 
   /* END OF WAITLIST */
+
+  /* LOADING SPINNER */
+  .spinner {
+    width: 56px;
+    height: 56px;
+    border: 14.4px #eae8e6 double;
+    border-left-style: solid;
+    border-radius: 50%;
+    animation: spinner-aib1d7 0.44999999999999996s infinite linear;
+  }
+
+  @keyframes spinner-aib1d7 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 
 .rotate-45 {

@@ -38,7 +38,7 @@ const Hero = () => {
                 </a>
               </Button>
             </div>
-            <div className="mask-fade mask-linear mask-from-50 relative flex justify-center overflow-hidden max-h-[50vh] sm:max-h-[70vh] md:max-h-[80vh]">
+            <div className="mask-fade mask-linear mask-from-50 relative flex justify-center overflow-hidden max-h-[40vh] sm:max-h-[70vh] md:max-h-[80vh]">
               {/* Placeholder */}
               {!imageLoaded && (
                 <div className="w-full h-full lg:p-[0rem_8rem] object-cover transition-opacity duration-300 rounded-2xl"></div>

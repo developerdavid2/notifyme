@@ -3,7 +3,9 @@ import { FaClock } from "react-icons/fa";
 
 const TermsOfService = () => {
   return (
-    <div className="container mx-auto px-6 md:max-w-3xl py-40">
+    <div className="container mx-auto px-6 md:max-w-3xl py-40 relative">
+      <div className="blur-[8rem] h-28 w-28 bg-blue-600/60 absolute top-[10%] left-1/2 transform -translate-x-1/2" />
+
       {/* Page Header */}
       <h1 className="md:h1 h4 font-bold text-center mb-4">Terms of Service</h1>
       <div className="flex items-center justify-center mb-15">
