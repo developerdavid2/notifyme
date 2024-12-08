@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="px-5 sm:px-12 flex flex-col items-center relative z-2 md:max-w-full text-center justify-center">
             <h1 className="mb-6 md:h1 h4 text-n-1 max-lg:mb-7 max-md:mb-4 md:leading-7">
               Revolutionize Your
-              <span className="headline-glow"> Upwork</span> Experience
+              <span className="hero-headline-glow"> Upwork</span> Experience
             </h1>
             <p className=" mb-5 text-base md:body-1">
               Instant notifications for new Upwork jobs, straight to your phone

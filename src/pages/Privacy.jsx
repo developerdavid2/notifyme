@@ -93,13 +93,13 @@ const Privacy = () => {
         If you have any questions or concerns regarding this Privacy Policy,
         feel free to reach out to us at{" "}
         <a
-          href={`mailto:support@notifyme.com`}
+          href={`mailto:notifyme.connect@gmail.com`}
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-800 hover:text-blue-400 flex"
           style={{ display: "inline-block" }} // Add this inline style
         >
-          support@notifyme.com
+          notifyme.connect@gmail.com
         </a>
         .
       </p>

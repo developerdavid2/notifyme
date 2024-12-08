@@ -69,11 +69,11 @@ const Footer = () => {
             <Button className="items-center lowercase inline-flex justify-center whitespace-nowrap rounded-2xl text-[12px] md:text-lg bg-white/30 backdrop-blur-[5rem] border border-white/25 px-4 py-2 text-n-1 hover:bg-white/40 gap-1 font-medium">
               <FaEnvelope />
               <a
-                href={`mailto:support@notifyme.com`}
+                href={`mailto:notifyme.connect@gmail.com`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full h-full text-inherit">
-                support@notifyme.com
+                notifyme.connect@gmail.com
               </a>
             </Button>
           </div>

@@ -88,12 +88,12 @@ const TermsOfService = () => {
         If you have any questions about these Terms of Service, please contact
         us at{" "}
         <a
-          href={`mailto:support@notifyme.com`}
+          href={`mailto:notifyme.connect@gmail.com`}
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-800 hover:text-blue-400 flex"
           style={{ display: "inline-block" }}>
-          support@notifyme.com
+          notifyme.connect@gmail.com
         </a>
         .
       </p>
